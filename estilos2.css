@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+   background: url("fondo-atras.jpg");
+
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    position: relative;
+    height: 440px;
+    width: 55%;
+   background: url(fondo3.jpg);
+  padding-top: 30px;
+    background-size: cover;
+    text-shadow:  0 0 3px #000,
+    0 0 6px #000;
+    border-radius: 20px;
+   box-shadow: 0 0 10px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.contenedor .img{
+    height: 400px;
+    width: 400px;
+   margin-left: -25%;
+    transform: rotate(-10deg);
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+.contenedor .before{
+    display: flex;
+    justify-content: center;
+text-align: center;
+align-items: center;
+    text-shadow: none;
+    height: 540px;
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    left: -28%;
+    background: #cc3843;
+    border-radius: 20px;
+}
+.before h1{
+    position: relative;
+     left: -30px;
+     top: -6px;
+    font-size: 11em;
+    transform: rotate(-90deg);
+    color: #a32d36;
+}
+.cont-info{
+    height: 100%;
+    width: 70%;  
+    margin:0 20px;
+    position: relative;
+    z-index: 5;
+}
+.box-info{
+    display: flex;
+}
+.cont-info .titulos h1{
+    width: 300px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.cont-info .titulos p{
+    font-size: 2em;
+}
+.cont-info .titulos span{
+    font-size: .7em;
+    position: relative;
+    top: -7px;
+}
+.info1{
+    width: 80%;
+}
+.info1 h2{
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.info1 .tallas span{
+    margin: 0 10px;
+}
+.info1 .datos{
+    margin-bottom: 50px;
+    display: flex;
+}
+.datos span{
+    width: 100px;
+    padding:7px 10px;
+    text-align: center;
+}
+.datos span:nth-child(1){
+    border: 2px solid crimson;
+    border-radius: 20px;
+}
+
+button{
+    padding: 13px 40px;
+    border:none;
+    background: transparent;
+    color: #fff;
+    background: crimson;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.info2{
+   border-left: 1px solid #ccc;
+    width:70%;
+    padding-left: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info2 .circulo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-bottom: 3px solid crimson;
+    border-top: 3px solid crimson;
+    border-right: 3px solid crimson;
+    border-left:3px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.info2 h1{
+    font-size: 1em;
+}
